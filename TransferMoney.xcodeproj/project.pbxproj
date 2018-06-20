@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE12F0EA20DA95BD00B846EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE12F0E920DA95BD00B846EA /* AppDelegate.swift */; };
+		AE12F0EC20DA95BD00B846EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE12F0EB20DA95BD00B846EA /* ViewController.swift */; };
+		AE12F0EF20DA95BD00B846EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE12F0ED20DA95BD00B846EA /* Main.storyboard */; };
+		AE12F0F120DA95BE00B846EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE12F0F020DA95BE00B846EA /* Assets.xcassets */; };
+		AE12F0F420DA95BE00B846EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE12F0F220DA95BE00B846EA /* LaunchScreen.storyboard */; };
+		AE12F0FF20DA95BE00B846EA /* TransferMoneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE12F0FE20DA95BE00B846EA /* TransferMoneyTests.swift */; };
+		AE12F10A20DA95BE00B846EA /* TransferMoneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE12F10920DA95BE00B846EA /* TransferMoneyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE12F0FB20DA95BE00B846EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE12F0DE20DA95BD00B846EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE12F0E520DA95BD00B846EA;
+			remoteInfo = TransferMoney;
+		};
+		AE12F10620DA95BE00B846EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE12F0DE20DA95BD00B846EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE12F0E520DA95BD00B846EA;
+			remoteInfo = TransferMoney;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE12F0E620DA95BD00B846EA /* TransferMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransferMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE12F0E920DA95BD00B846EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE12F0EB20DA95BD00B846EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE12F0EE20DA95BD00B846EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE12F0F020DA95BE00B846EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE12F0F320DA95BE00B846EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE12F0F520DA95BE00B846EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE12F0FA20DA95BE00B846EA /* TransferMoneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransferMoneyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE12F0FE20DA95BE00B846EA /* TransferMoneyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferMoneyTests.swift; sourceTree = "<group>"; };
+		AE12F10020DA95BE00B846EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE12F10520DA95BE00B846EA /* TransferMoneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransferMoneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE12F10920DA95BE00B846EA /* TransferMoneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferMoneyUITests.swift; sourceTree = "<group>"; };
+		AE12F10B20DA95BE00B846EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE12F0E320DA95BD00B846EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE12F0F720DA95BE00B846EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE12F10220DA95BE00B846EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE12F0DD20DA95BD00B846EA = {
+			isa = PBXGroup;
+			children = (
+				AE12F0E820DA95BD00B846EA /* TransferMoney */,
+				AE12F0FD20DA95BE00B846EA /* TransferMoneyTests */,
+				AE12F10820DA95BE00B846EA /* TransferMoneyUITests */,
+				AE12F0E720DA95BD00B846EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE12F0E720DA95BD00B846EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE12F0E620DA95BD00B846EA /* TransferMoney.app */,
+				AE12F0FA20DA95BE00B846EA /* TransferMoneyTests.xctest */,
+				AE12F10520DA95BE00B846EA /* TransferMoneyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE12F0E820DA95BD00B846EA /* TransferMoney */ = {
+			isa = PBXGroup;
+			children = (
+				AE12F0E920DA95BD00B846EA /* AppDelegate.swift */,
+				AE12F0EB20DA95BD00B846EA /* ViewController.swift */,
+				AE12F0ED20DA95BD00B846EA /* Main.storyboard */,
+				AE12F0F020DA95BE00B846EA /* Assets.xcassets */,
+				AE12F0F220DA95BE00B846EA /* LaunchScreen.storyboard */,
+				AE12F0F520DA95BE00B846EA /* Info.plist */,
+			);
+			path = TransferMoney;
+			sourceTree = "<group>";
+		};
+		AE12F0FD20DA95BE00B846EA /* TransferMoneyTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE12F0FE20DA95BE00B846EA /* TransferMoneyTests.swift */,
+				AE12F10020DA95BE00B846EA /* Info.plist */,
+			);
+			path = TransferMoneyTests;
+			sourceTree = "<group>";
+		};
+		AE12F10820DA95BE00B846EA /* TransferMoneyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE12F10920DA95BE00B846EA /* TransferMoneyUITests.swift */,
+				AE12F10B20DA95BE00B846EA /* Info.plist */,
+			);
+			path = TransferMoneyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE12F0E520DA95BD00B846EA /* TransferMoney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE12F10E20DA95BE00B846EA /* Build configuration list for PBXNativeTarget "TransferMoney" */;
+			buildPhases = (
+				AE12F0E220DA95BD00B846EA /* Sources */,
+				AE12F0E320DA95BD00B846EA /* Frameworks */,
+				AE12F0E420DA95BD00B846EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TransferMoney;
+			productName = TransferMoney;
+			productReference = AE12F0E620DA95BD00B846EA /* TransferMoney.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE12F0F920DA95BE00B846EA /* TransferMoneyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE12F11120DA95BE00B846EA /* Build configuration list for PBXNativeTarget "TransferMoneyTests" */;
+			buildPhases = (
+				AE12F0F620DA95BE00B846EA /* Sources */,
+				AE12F0F720DA95BE00B846EA /* Frameworks */,
+				AE12F0F820DA95BE00B846EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE12F0FC20DA95BE00B846EA /* PBXTargetDependency */,
+			);
+			name = TransferMoneyTests;
+			productName = TransferMoneyTests;
+			productReference = AE12F0FA20DA95BE00B846EA /* TransferMoneyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE12F10420DA95BE00B846EA /* TransferMoneyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE12F11420DA95BE00B846EA /* Build configuration list for PBXNativeTarget "TransferMoneyUITests" */;
+			buildPhases = (
+				AE12F10120DA95BE00B846EA /* Sources */,
+				AE12F10220DA95BE00B846EA /* Frameworks */,
+				AE12F10320DA95BE00B846EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE12F10720DA95BE00B846EA /* PBXTargetDependency */,
+			);
+			name = TransferMoneyUITests;
+			productName = TransferMoneyUITests;
+			productReference = AE12F10520DA95BE00B846EA /* TransferMoneyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE12F0DE20DA95BD00B846EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Aarson Chan";
+				TargetAttributes = {
+					AE12F0E520DA95BD00B846EA = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					AE12F0F920DA95BE00B846EA = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = AE12F0E520DA95BD00B846EA;
+					};
+					AE12F10420DA95BE00B846EA = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = AE12F0E520DA95BD00B846EA;
+					};
+				};
+			};
+			buildConfigurationList = AE12F0E120DA95BD00B846EA /* Build configuration list for PBXProject "TransferMoney" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE12F0DD20DA95BD00B846EA;
+			productRefGroup = AE12F0E720DA95BD00B846EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE12F0E520DA95BD00B846EA /* TransferMoney */,
+				AE12F0F920DA95BE00B846EA /* TransferMoneyTests */,
+				AE12F10420DA95BE00B846EA /* TransferMoneyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE12F0E420DA95BD00B846EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE12F0F420DA95BE00B846EA /* LaunchScreen.storyboard in Resources */,
+				AE12F0F120DA95BE00B846EA /* Assets.xcassets in Resources */,
+				AE12F0EF20DA95BD00B846EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE12F0F820DA95BE00B846EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE12F10320DA95BE00B846EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE12F0E220DA95BD00B846EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE12F0EC20DA95BD00B846EA /* ViewController.swift in Sources */,
+				AE12F0EA20DA95BD00B846EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE12F0F620DA95BE00B846EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE12F0FF20DA95BE00B846EA /* TransferMoneyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE12F10120DA95BE00B846EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE12F10A20DA95BE00B846EA /* TransferMoneyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE12F0FC20DA95BE00B846EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE12F0E520DA95BD00B846EA /* TransferMoney */;
+			targetProxy = AE12F0FB20DA95BE00B846EA /* PBXContainerItemProxy */;
+		};
+		AE12F10720DA95BE00B846EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE12F0E520DA95BD00B846EA /* TransferMoney */;
+			targetProxy = AE12F10620DA95BE00B846EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE12F0ED20DA95BD00B846EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE12F0EE20DA95BD00B846EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE12F0F220DA95BE00B846EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE12F0F320DA95BE00B846EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE12F10C20DA95BE00B846EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE12F10D20DA95BE00B846EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE12F10F20DA95BE00B846EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TransferMoney/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aarsonchan.TransferMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE12F11020DA95BE00B846EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TransferMoney/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aarsonchan.TransferMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE12F11220DA95BE00B846EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TransferMoneyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aarsonchan.TransferMoneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TransferMoney.app/TransferMoney";
+			};
+			name = Debug;
+		};
+		AE12F11320DA95BE00B846EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TransferMoneyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aarsonchan.TransferMoneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TransferMoney.app/TransferMoney";
+			};
+			name = Release;
+		};
+		AE12F11520DA95BE00B846EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TransferMoneyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aarsonchan.TransferMoneyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TransferMoney;
+			};
+			name = Debug;
+		};
+		AE12F11620DA95BE00B846EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TransferMoneyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aarsonchan.TransferMoneyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TransferMoney;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE12F0E120DA95BD00B846EA /* Build configuration list for PBXProject "TransferMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE12F10C20DA95BE00B846EA /* Debug */,
+				AE12F10D20DA95BE00B846EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE12F10E20DA95BE00B846EA /* Build configuration list for PBXNativeTarget "TransferMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE12F10F20DA95BE00B846EA /* Debug */,
+				AE12F11020DA95BE00B846EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE12F11120DA95BE00B846EA /* Build configuration list for PBXNativeTarget "TransferMoneyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE12F11220DA95BE00B846EA /* Debug */,
+				AE12F11320DA95BE00B846EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE12F11420DA95BE00B846EA /* Build configuration list for PBXNativeTarget "TransferMoneyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE12F11520DA95BE00B846EA /* Debug */,
+				AE12F11620DA95BE00B846EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE12F0DE20DA95BD00B846EA /* Project object */;
+}
