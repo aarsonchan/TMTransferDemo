@@ -69,7 +69,7 @@ class TransferCompleteViewController: UIViewController, UITableViewDelegate, UIT
         self.lblComplete.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier: 0.9).isActive = true
         self.lblComplete.heightAnchor.constraint(equalToConstant:30.0).isActive = true
         //Configurations
-        self.lblComplete.font = UIFont.systemFont(ofSize: 18.0)
+        self.lblComplete.font = UIFont.systemFont(ofSize: 17.0)
         self.lblComplete.textColor = .black
         self.lblComplete.textAlignment = .center
         self.lblComplete.text = NSLocalizedString("Your instruction has been processed", comment: "")
@@ -106,6 +106,7 @@ class TransferCompleteViewController: UIViewController, UITableViewDelegate, UIT
         self.tableView.delegate = self
         self.tableView.dataSource = self
         self.tableView.separatorStyle = .none
+        self.tableView.allowsSelection = false
     }
     
     // MARK: - Table Configurations
