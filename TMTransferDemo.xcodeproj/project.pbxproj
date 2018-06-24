@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		709DF9AC86B778190F819D9B /* Pods_TMTransferDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 435F5F5441DAF788CC64F778 /* Pods_TMTransferDemo.framework */; };
+		AE12F0EA20DA95BD00B846EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE12F0E920DA95BD00B846EA /* AppDelegate.swift */; };
+		AE12F0F120DA95BE00B846EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE12F0F020DA95BE00B846EA /* Assets.xcassets */; };
+		AE12F0F420DA95BE00B846EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE12F0F220DA95BE00B846EA /* LaunchScreen.storyboard */; };
+		AE1E1C6A20DD3A5500474719 /* TMConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1E1C6920DD3A5500474719 /* TMConfig.swift */; };
+		AE1E1C6C20DD3C5A00474719 /* TMJsonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1E1C6B20DD3C5A00474719 /* TMJsonManager.swift */; };
+		AE1E1C6E20DD3CC200474719 /* TMPubKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1E1C6D20DD3CC200474719 /* TMPubKey.swift */; };
+		AE1E1C7020DD3EA500474719 /* String+Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1E1C6F20DD3EA500474719 /* String+Hash.swift */; };
+		AE1E1C7220DD421A00474719 /* TMKeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1E1C7120DD421A00474719 /* TMKeyManager.swift */; };
+		AE1E1C7720DD4AA000474719 /* TMLoggerFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1E1C7620DD4AA000474719 /* TMLoggerFormatter.swift */; };
+		AE1E1C7920DD57F100474719 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AE1E1C7820DD57F100474719 /* README.md */; };
+		AE24DEAE20DBDFE20076E279 /* EnterAmountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE24DEAD20DBDFE20076E279 /* EnterAmountViewController.swift */; };
+		AE24DEB020DBDFFF0076E279 /* TransferCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE24DEAF20DBDFFF0076E279 /* TransferCompleteViewController.swift */; };
+		AE24DEB220DBF0040076E279 /* TMMessageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE24DEB120DBF0040076E279 /* TMMessageManager.swift */; };
+		AE465FD520DF4A860009A293 /* TransferCompleteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE465FD420DF4A860009A293 /* TransferCompleteTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2216C309B043C764B22835F3 /* Pods-TMTransferDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMTransferDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TMTransferDemo/Pods-TMTransferDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		435F5F5441DAF788CC64F778 /* Pods_TMTransferDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TMTransferDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		967611D95F2AD1C5673D0B42 /* Pods-TMTransferDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMTransferDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TransferMoney/Pods-TMTransferDemo.release.xcconfig"; sourceTree = "<group>"; };
+		AE12F0E620DA95BD00B846EA /* TMTransferDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMTransferDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE12F0E920DA95BD00B846EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE12F0F020DA95BE00B846EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE12F0F320DA95BE00B846EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE12F0F520DA95BE00B846EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE1E1C6920DD3A5500474719 /* TMConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMConfig.swift; sourceTree = "<group>"; };
+		AE1E1C6B20DD3C5A00474719 /* TMJsonManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMJsonManager.swift; sourceTree = "<group>"; };
+		AE1E1C6D20DD3CC200474719 /* TMPubKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMPubKey.swift; sourceTree = "<group>"; };
+		AE1E1C6F20DD3EA500474719 /* String+Hash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Hash.swift"; sourceTree = "<group>"; };
+		AE1E1C7120DD421A00474719 /* TMKeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMKeyManager.swift; sourceTree = "<group>"; };
+		AE1E1C7520DD47BC00474719 /* TMTransferDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TMTransferDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		AE1E1C7620DD4AA000474719 /* TMLoggerFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMLoggerFormatter.swift; sourceTree = "<group>"; };
+		AE1E1C7820DD57F100474719 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AE24DEAD20DBDFE20076E279 /* EnterAmountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterAmountViewController.swift; sourceTree = "<group>"; };
+		AE24DEAF20DBDFFF0076E279 /* TransferCompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferCompleteViewController.swift; sourceTree = "<group>"; };
+		AE24DEB120DBF0040076E279 /* TMMessageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMMessageManager.swift; sourceTree = "<group>"; };
+		AE465FD420DF4A860009A293 /* TransferCompleteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferCompleteTableViewCell.swift; sourceTree = "<group>"; };
+		C9B4B683054B0AB9ACB6EFF4 /* Pods-TMTransferDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMTransferDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TransferMoney/Pods-TMTransferDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FC2D455384DC92C8EE576DC0 /* Pods-TMTransferDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMTransferDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TMTransferDemo/Pods-TMTransferDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE12F0E320DA95BD00B846EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709DF9AC86B778190F819D9B /* Pods_TMTransferDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		477EA418786B7997E03BDDA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				435F5F5441DAF788CC64F778 /* Pods_TMTransferDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE12F0DD20DA95BD00B846EA = {
+			isa = PBXGroup;
+			children = (
+				AE12F0E820DA95BD00B846EA /* TMTransferDemo */,
+				AE12F0E720DA95BD00B846EA /* Products */,
+				D9A41D73AE3150C70989BE49 /* Pods */,
+				477EA418786B7997E03BDDA0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE12F0E720DA95BD00B846EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE12F0E620DA95BD00B846EA /* TMTransferDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE12F0E820DA95BD00B846EA /* TMTransferDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AE1E1C7820DD57F100474719 /* README.md */,
+				AE465FD620DFF3FD0009A293 /* UI View */,
+				AE1E1C7320DD428E00474719 /* Manager */,
+				AE1E1C7420DD429800474719 /* Extension */,
+				AE12F0F020DA95BE00B846EA /* Assets.xcassets */,
+				AE12F0F220DA95BE00B846EA /* LaunchScreen.storyboard */,
+				AE12F0F520DA95BE00B846EA /* Info.plist */,
+				AE1E1C7520DD47BC00474719 /* TMTransferDemo-Bridging-Header.h */,
+			);
+			path = TMTransferDemo;
+			sourceTree = "<group>";
+		};
+		AE1E1C7320DD428E00474719 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				AE1E1C6920DD3A5500474719 /* TMConfig.swift */,
+				AE24DEB120DBF0040076E279 /* TMMessageManager.swift */,
+				AE1E1C6B20DD3C5A00474719 /* TMJsonManager.swift */,
+				AE1E1C7120DD421A00474719 /* TMKeyManager.swift */,
+				AE1E1C6D20DD3CC200474719 /* TMPubKey.swift */,
+				AE1E1C7620DD4AA000474719 /* TMLoggerFormatter.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		AE1E1C7420DD429800474719 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AE1E1C6F20DD3EA500474719 /* String+Hash.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		AE465FD620DFF3FD0009A293 /* UI View */ = {
+			isa = PBXGroup;
+			children = (
+				AE12F0E920DA95BD00B846EA /* AppDelegate.swift */,
+				AE24DEAD20DBDFE20076E279 /* EnterAmountViewController.swift */,
+				AE24DEAF20DBDFFF0076E279 /* TransferCompleteViewController.swift */,
+				AE465FD420DF4A860009A293 /* TransferCompleteTableViewCell.swift */,
+			);
+			path = "UI View";
+			sourceTree = "<group>";
+		};
+		D9A41D73AE3150C70989BE49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9B4B683054B0AB9ACB6EFF4 /* Pods-TMTransferDemo.debug.xcconfig */,
+				967611D95F2AD1C5673D0B42 /* Pods-TMTransferDemo.release.xcconfig */,
+				2216C309B043C764B22835F3 /* Pods-TMTransferDemo.debug.xcconfig */,
+				FC2D455384DC92C8EE576DC0 /* Pods-TMTransferDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE12F0E520DA95BD00B846EA /* TMTransferDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE12F10E20DA95BE00B846EA /* Build configuration list for PBXNativeTarget "TMTransferDemo" */;
+			buildPhases = (
+				D7FBB2ED9A50B9FFD41920F9 /* [CP] Check Pods Manifest.lock */,
+				AE12F0E220DA95BD00B846EA /* Sources */,
+				AE12F0E320DA95BD00B846EA /* Frameworks */,
+				AE12F0E420DA95BD00B846EA /* Resources */,
+				BFD856A626B33B6210199301 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TMTransferDemo;
+			productName = TransferMoney;
+			productReference = AE12F0E620DA95BD00B846EA /* TMTransferDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE12F0DE20DA95BD00B846EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Aarson Chan";
+				TargetAttributes = {
+					AE12F0E520DA95BD00B846EA = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = AE12F0E120DA95BD00B846EA /* Build configuration list for PBXProject "TMTransferDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE12F0DD20DA95BD00B846EA;
+			productRefGroup = AE12F0E720DA95BD00B846EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE12F0E520DA95BD00B846EA /* TMTransferDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE12F0E420DA95BD00B846EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE12F0F420DA95BE00B846EA /* LaunchScreen.storyboard in Resources */,
+				AE12F0F120DA95BE00B846EA /* Assets.xcassets in Resources */,
+				AE1E1C7920DD57F100474719 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BFD856A626B33B6210199301 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TMTransferDemo/Pods-TMTransferDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyRSA/SwiftyRSA.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyRSA.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TMTransferDemo/Pods-TMTransferDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7FBB2ED9A50B9FFD41920F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TMTransferDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE12F0E220DA95BD00B846EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1E1C6A20DD3A5500474719 /* TMConfig.swift in Sources */,
+				AE24DEB020DBDFFF0076E279 /* TransferCompleteViewController.swift in Sources */,
+				AE1E1C7220DD421A00474719 /* TMKeyManager.swift in Sources */,
+				AE465FD520DF4A860009A293 /* TransferCompleteTableViewCell.swift in Sources */,
+				AE1E1C7020DD3EA500474719 /* String+Hash.swift in Sources */,
+				AE1E1C6E20DD3CC200474719 /* TMPubKey.swift in Sources */,
+				AE24DEAE20DBDFE20076E279 /* EnterAmountViewController.swift in Sources */,
+				AE1E1C7720DD4AA000474719 /* TMLoggerFormatter.swift in Sources */,
+				AE24DEB220DBF0040076E279 /* TMMessageManager.swift in Sources */,
+				AE12F0EA20DA95BD00B846EA /* AppDelegate.swift in Sources */,
+				AE1E1C6C20DD3C5A00474719 /* TMJsonManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE12F0F220DA95BE00B846EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE12F0F320DA95BE00B846EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE12F10C20DA95BE00B846EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE12F10D20DA95BE00B846EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE12F10F20DA95BE00B846EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2216C309B043C764B22835F3 /* Pods-TMTransferDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TMTransferDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aarsonchan.TMTransferDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/TMTransferDemo/TMTransferDemo-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE12F11020DA95BE00B846EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC2D455384DC92C8EE576DC0 /* Pods-TMTransferDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TMTransferDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aarsonchan.TMTransferDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/TMTransferDemo/TMTransferDemo-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE12F0E120DA95BD00B846EA /* Build configuration list for PBXProject "TMTransferDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE12F10C20DA95BE00B846EA /* Debug */,
+				AE12F10D20DA95BE00B846EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE12F10E20DA95BE00B846EA /* Build configuration list for PBXNativeTarget "TMTransferDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE12F10F20DA95BE00B846EA /* Debug */,
+				AE12F11020DA95BE00B846EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE12F0DE20DA95BD00B846EA /* Project object */;
+}

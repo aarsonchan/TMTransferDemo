@@ -1,0 +1,402 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "defaultDebugLevel"
+- "resetDefaultDebugLevel"
+- "_DDLogMessage"
+- "DDLogDebug"
+- "DDLogInfo"
+- "DDLogWarn"
+- "DDLogVerbose"
+- "DDLogError"
+- "CurrentFileName"
+provides-nominal:
+provides-member:
+- ["SC9DDLogFlagV", ""]
+- ["SC9DDLogFlagV", "from"]
+- ["SC9DDLogFlagV", "init"]
+- ["SC9DDLogFlagV", "toLogLevel"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "&"
+- !private "..."
+- !private "..<"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CurrentFileName"
+- "DDLog"
+- "DDLogDebug"
+- "DDLogError"
+- "DDLogFlag"
+- "DDLogInfo"
+- "DDLogLevel"
+- !private "DDLogMessage"
+- "DDLogVerbose"
+- "DDLogWarn"
+- "Int"
+- "StaticString"
+- "String"
+- "StringLiteralType"
+- "UInt"
+- !private "UnicodeScalarType"
+- "_DDLogMessage"
+- "defaultDebugLevel"
+- "resetDefaultDebugLevel"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "range"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "log"]
+- !private ["s7CVarArgP", "range"]
+- !private ["s7CVarArgP", "sharedInstance"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "range"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "range"]
+- !private ["s10ComparableP", "subscript"]
+- !private ["So8NSStringC14CompareOptionsV", "backwards"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "log"]
+- !private ["s28CustomDebugStringConvertibleP", "lowerBound"]
+- !private ["s28CustomDebugStringConvertibleP", "range"]
+- !private ["s28CustomDebugStringConvertibleP", "sharedInstance"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "upperBound"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "range"]
+- !private ["s29CustomPlaygroundQuickLookableP", "subscript"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "lowerBound"]
+- !private ["s17CustomReflectableP", "range"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "upperBound"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "log"]
+- !private ["s23CustomStringConvertibleP", "lowerBound"]
+- !private ["s23CustomStringConvertibleP", "range"]
+- !private ["s23CustomStringConvertibleP", "sharedInstance"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "upperBound"]
+- !private ["So5DDLogC", "log"]
+- !private ["So5DDLogC", "sharedInstance"]
+- ["SC9DDLogFlagV", "DDLogFlag"]
+- ["SC9DDLogFlagV", "DDLogLevel"]
+- !private ["SC9DDLogFlagV", "contains"]
+- !private ["SC9DDLogFlagV", "debug"]
+- !private ["SC9DDLogFlagV", "error"]
+- ["SC9DDLogFlagV", "from"]
+- !private ["SC9DDLogFlagV", "info"]
+- ["SC9DDLogFlagV", "init"]
+- !private ["SC9DDLogFlagV", "rawValue"]
+- ["SC9DDLogFlagV", "toLogLevel"]
+- !private ["SC9DDLogFlagV", "verbose"]
+- !private ["SC9DDLogFlagV", "warning"]
+- !private ["SC10DDLogLevelO", "debug"]
+- !private ["SC10DDLogLevelO", "error"]
+- !private ["SC10DDLogLevelO", "info"]
+- !private ["SC10DDLogLevelO", "init"]
+- !private ["SC10DDLogLevelO", "off"]
+- !private ["SC10DDLogLevelO", "rawValue"]
+- ["SC10DDLogLevelO", "verbose"]
+- !private ["SC10DDLogLevelO", "warning"]
+- !private ["So12DDLogMessageC", "init"]
+- !private ["SC19DDLogMessageOptionsV", "copyFile"]
+- !private ["SC19DDLogMessageOptionsV", "copyFunction"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "range"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "range"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "DDLogFlag"]
+- !private ["s9EquatableP", "DDLogLevel"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "backwards"]
+- !private ["s9EquatableP", "contains"]
+- !private ["s9EquatableP", "copyFile"]
+- !private ["s9EquatableP", "copyFunction"]
+- !private ["s9EquatableP", "debug"]
+- !private ["s9EquatableP", "error"]
+- !private ["s9EquatableP", "info"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "log"]
+- !private ["s9EquatableP", "lowerBound"]
+- !private ["s9EquatableP", "off"]
+- !private ["s9EquatableP", "range"]
+- !private ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "sharedInstance"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "upperBound"]
+- ["s9EquatableP", "verbose"]
+- !private ["s9EquatableP", "warning"]
+- !private ["s25ExpressibleByArrayLiteralP", "DDLogFlag"]
+- !private ["s25ExpressibleByArrayLiteralP", "DDLogLevel"]
+- !private ["s25ExpressibleByArrayLiteralP", "backwards"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "copyFile"]
+- !private ["s25ExpressibleByArrayLiteralP", "copyFunction"]
+- !private ["s25ExpressibleByArrayLiteralP", "debug"]
+- !private ["s25ExpressibleByArrayLiteralP", "error"]
+- !private ["s25ExpressibleByArrayLiteralP", "info"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "rawValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "verbose"]
+- !private ["s25ExpressibleByArrayLiteralP", "warning"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "range"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "subscript"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "range"]
+- !private ["s26ExpressibleByStringLiteralP", "subscript"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "range"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "subscript"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "debug"]
+- !private ["s8HashableP", "error"]
+- !private ["s8HashableP", "info"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "log"]
+- !private ["s8HashableP", "off"]
+- !private ["s8HashableP", "range"]
+- !private ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "sharedInstance"]
+- !private ["s8HashableP", "subscript"]
+- ["s8HashableP", "verbose"]
+- !private ["s8HashableP", "warning"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "range"]
+- !private ["s25LosslessStringConvertibleP", "subscript"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "range"]
+- !private ["s10MirrorPathP", "subscript"]
+- !private ["So8NSCodingP", "range"]
+- !private ["So8NSCodingP", "subscript"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "range"]
+- !private ["So9NSCopyingP", "subscript"]
+- !private ["So21NSItemProviderReadingP", "range"]
+- !private ["So21NSItemProviderReadingP", "subscript"]
+- !private ["So21NSItemProviderWritingP", "range"]
+- !private ["So21NSItemProviderWritingP", "subscript"]
+- !private ["So16NSMutableCopyingP", "range"]
+- !private ["So16NSMutableCopyingP", "subscript"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "log"]
+- !private ["So8NSObjectC", "range"]
+- !private ["So8NSObjectC", "sharedInstance"]
+- !private ["So8NSObjectC", "subscript"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "log"]
+- !private ["So16NSObjectProtocolP", "range"]
+- !private ["So16NSObjectProtocolP", "sharedInstance"]
+- !private ["So16NSObjectProtocolP", "subscript"]
+- !private ["So14NSSecureCodingP", "range"]
+- !private ["So14NSSecureCodingP", "subscript"]
+- !private ["So8NSStringC", "range"]
+- !private ["So8NSStringC", "subscript"]
+- !private ["s9OptionSetP", "DDLogFlag"]
+- !private ["s9OptionSetP", "DDLogLevel"]
+- !private ["s9OptionSetP", "backwards"]
+- !private ["s9OptionSetP", "contains"]
+- !private ["s9OptionSetP", "copyFile"]
+- !private ["s9OptionSetP", "copyFunction"]
+- !private ["s9OptionSetP", "debug"]
+- !private ["s9OptionSetP", "error"]
+- !private ["s9OptionSetP", "info"]
+- !private ["s9OptionSetP", "init"]
+- !private ["s9OptionSetP", "rawValue"]
+- !private ["s9OptionSetP", "verbose"]
+- !private ["s9OptionSetP", "warning"]
+- !private ["s5RangeV", "lowerBound"]
+- !private ["s5RangeV", "upperBound"]
+- !private ["s15RangeExpressionP", "lowerBound"]
+- !private ["s15RangeExpressionP", "upperBound"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "range"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s16RawRepresentableP", "DDLogFlag"]
+- !private ["s16RawRepresentableP", "DDLogLevel"]
+- !private ["s16RawRepresentableP", "backwards"]
+- !private ["s16RawRepresentableP", "contains"]
+- !private ["s16RawRepresentableP", "copyFile"]
+- !private ["s16RawRepresentableP", "copyFunction"]
+- !private ["s16RawRepresentableP", "debug"]
+- !private ["s16RawRepresentableP", "error"]
+- !private ["s16RawRepresentableP", "info"]
+- !private ["s16RawRepresentableP", "init"]
+- !private ["s16RawRepresentableP", "off"]
+- !private ["s16RawRepresentableP", "rawValue"]
+- ["s16RawRepresentableP", "verbose"]
+- !private ["s16RawRepresentableP", "warning"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "range"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s10SetAlgebraP", "DDLogFlag"]
+- !private ["s10SetAlgebraP", "DDLogLevel"]
+- !private ["s10SetAlgebraP", "backwards"]
+- !private ["s10SetAlgebraP", "contains"]
+- !private ["s10SetAlgebraP", "copyFile"]
+- !private ["s10SetAlgebraP", "copyFunction"]
+- !private ["s10SetAlgebraP", "debug"]
+- !private ["s10SetAlgebraP", "error"]
+- !private ["s10SetAlgebraP", "info"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["s10SetAlgebraP", "rawValue"]
+- !private ["s10SetAlgebraP", "verbose"]
+- !private ["s10SetAlgebraP", "warning"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "range"]
+- !private ["SS", "subscript"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "range"]
+- !private ["s14StringProtocolP", "subscript"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "range"]
+- !private ["s16TextOutputStreamP", "subscript"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "range"]
+- !private ["s20TextOutputStreamableP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "range"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "subscript"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "range"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "subscript"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "range"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "subscript"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "range"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "subscript"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "range"]
+- !private ["s33_ExpressibleByStringInterpolationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "range"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "log"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "range"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sharedInstance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "range"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "range"]
+- !private ["s16_SwiftStringViewP", "subscript"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "So8NSStringC14CompareOptionsV"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "So5DDLogC"
+- "SC9DDLogFlagV"
+- "SC10DDLogLevelO"
+- !private "So12DDLogMessageC"
+- !private "SC19DDLogMessageOptionsV"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s9OptionSetP"
+- !private "s5RangeV"
+- !private "s15RangeExpressionP"
+- !private "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/CocoaLumberjack/Classes/DDLog+LOGV.h"
+- "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/Target Support Files/CocoaLumberjack/CocoaLumberjack-umbrella.h"
+- "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/CocoaLumberjack/Classes/DDASLLogCapture.h"
+- "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/CocoaLumberjack/Classes/DDLog.h"
+- "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/CocoaLumberjack/Classes/CocoaLumberjack.h"
+- "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/CocoaLumberjack/Classes/DDASLLogger.h"
+- "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/CocoaLumberjack/Classes/DDOSLogger.h"
+- "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/CocoaLumberjack/Classes/DDTTYLogger.h"
+- "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/CocoaLumberjack/Classes/DDFileLogger.h"
+- "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/CocoaLumberjack/Classes/DDAbstractDatabaseLogger.h"
+- "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/CocoaLumberjack/Classes/DDLogMacros.h"
+- "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/CocoaLumberjack/Classes/DDAssertMacros.h"
+- "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/CocoaLumberjack/Classes/DDLegacyMacros.h"
+- "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/DerivedData/TMTransferDemo/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CocoaLumberjack.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "08fcb1f0aa3f557d3d6fc37740c16e20"

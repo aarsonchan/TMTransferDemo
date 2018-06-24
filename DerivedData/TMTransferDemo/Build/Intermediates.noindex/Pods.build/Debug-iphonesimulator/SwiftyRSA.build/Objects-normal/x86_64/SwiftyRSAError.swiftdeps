@@ -1,0 +1,171 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SwiftyRSAError"
+provides-nominal:
+- "9SwiftyRSA0A8RSAErrorO"
+provides-member:
+- ["9SwiftyRSA0A8RSAErrorO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "CFError"
+- "Error"
+- "Int"
+- "OSStatus"
+- "String"
+- !private "StringLiteralType"
+- "SwiftyRSAError"
+- !private "UnicodeScalarType"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "init"]
+- !private ["s5ErrorP", "String"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "asn1ParsingFailed"]
+- ["s5ErrorP", "chunkDecryptFailed"]
+- ["s5ErrorP", "chunkEncryptFailed"]
+- ["s5ErrorP", "dataToStringConversionFailed"]
+- ["s5ErrorP", "derFileNotFound"]
+- ["s5ErrorP", "invalidAsn1RootNode"]
+- ["s5ErrorP", "invalidAsn1Structure"]
+- ["s5ErrorP", "invalidBase64String"]
+- ["s5ErrorP", "invalidDigestSize"]
+- ["s5ErrorP", "keyAddFailed"]
+- ["s5ErrorP", "keyCopyFailed"]
+- ["s5ErrorP", "keyCreateFailed"]
+- ["s5ErrorP", "keyGenerationFailed"]
+- ["s5ErrorP", "keyRepresentationFailed"]
+- ["s5ErrorP", "notAPrivateKey"]
+- ["s5ErrorP", "notAPublicKey"]
+- ["s5ErrorP", "pemDoesNotContainKey"]
+- ["s5ErrorP", "pemFileNotFound"]
+- ["s5ErrorP", "signatureCreateFailed"]
+- ["s5ErrorP", "signatureVerifyFailed"]
+- ["s5ErrorP", "stringToDataConversionFailed"]
+- ["s5ErrorP", "tagEncodingFailed"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- ["9SwiftyRSA0A8RSAErrorO", "CFError"]
+- ["9SwiftyRSA0A8RSAErrorO", "Int"]
+- ["9SwiftyRSA0A8RSAErrorO", "OSStatus"]
+- ["9SwiftyRSA0A8RSAErrorO", "String"]
+- ["9SwiftyRSA0A8RSAErrorO", "_code"]
+- ["9SwiftyRSA0A8RSAErrorO", "_domain"]
+- ["9SwiftyRSA0A8RSAErrorO", "_getEmbeddedNSError"]
+- ["9SwiftyRSA0A8RSAErrorO", "_userInfo"]
+- ["9SwiftyRSA0A8RSAErrorO", "asn1ParsingFailed"]
+- ["9SwiftyRSA0A8RSAErrorO", "chunkDecryptFailed"]
+- ["9SwiftyRSA0A8RSAErrorO", "chunkEncryptFailed"]
+- ["9SwiftyRSA0A8RSAErrorO", "dataToStringConversionFailed"]
+- ["9SwiftyRSA0A8RSAErrorO", "deinit"]
+- ["9SwiftyRSA0A8RSAErrorO", "derFileNotFound"]
+- ["9SwiftyRSA0A8RSAErrorO", "invalidAsn1RootNode"]
+- ["9SwiftyRSA0A8RSAErrorO", "invalidAsn1Structure"]
+- ["9SwiftyRSA0A8RSAErrorO", "invalidBase64String"]
+- ["9SwiftyRSA0A8RSAErrorO", "invalidDigestSize"]
+- ["9SwiftyRSA0A8RSAErrorO", "keyAddFailed"]
+- ["9SwiftyRSA0A8RSAErrorO", "keyCopyFailed"]
+- ["9SwiftyRSA0A8RSAErrorO", "keyCreateFailed"]
+- ["9SwiftyRSA0A8RSAErrorO", "keyGenerationFailed"]
+- ["9SwiftyRSA0A8RSAErrorO", "keyRepresentationFailed"]
+- ["9SwiftyRSA0A8RSAErrorO", "localizedDescription"]
+- ["9SwiftyRSA0A8RSAErrorO", "notAPrivateKey"]
+- ["9SwiftyRSA0A8RSAErrorO", "notAPublicKey"]
+- ["9SwiftyRSA0A8RSAErrorO", "pemDoesNotContainKey"]
+- ["9SwiftyRSA0A8RSAErrorO", "pemFileNotFound"]
+- ["9SwiftyRSA0A8RSAErrorO", "signatureCreateFailed"]
+- ["9SwiftyRSA0A8RSAErrorO", "signatureVerifyFailed"]
+- ["9SwiftyRSA0A8RSAErrorO", "stringToDataConversionFailed"]
+- ["9SwiftyRSA0A8RSAErrorO", "tagEncodingFailed"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- "s5ErrorP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- "9SwiftyRSA0A8RSAErrorO"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/SwiftyRSA/SwiftyRSA/NSData+SHA.h"
+- "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/SwiftyRSA/SwiftyRSA/SwiftyRSA.h"
+- "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/Target Support Files/SwiftyRSA/SwiftyRSA-umbrella.h"
+- "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/DerivedData/TMTransferDemo/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SwiftyRSA.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "3ba3e7ed583cfee704cfeeef2ef99940"

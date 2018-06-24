@@ -1,0 +1,15 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "cdbc7d41a6f1a9380e05719959e129f5"
+build_time: [1529857707, 604892000]
+inputs:
+  "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/SwiftyRSA/SwiftyRSA/Asn1Parser.swift": [1529679514, 0]
+  "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/SwiftyRSA/SwiftyRSA/ClearMessage.swift": [1529679514, 0]
+  "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/SwiftyRSA/SwiftyRSA/EncryptedMessage.swift": [1529679514, 0]
+  "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/SwiftyRSA/SwiftyRSA/Key.swift": [1529679514, 0]
+  "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/SwiftyRSA/SwiftyRSA/Message.swift": [1529679514, 0]
+  "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/SwiftyRSA/SwiftyRSA/PrivateKey.swift": [1529679514, 0]
+  "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/SwiftyRSA/SwiftyRSA/PublicKey.swift": [1529679514, 0]
+  "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/SwiftyRSA/SwiftyRSA/Signature.swift": [1529679514, 0]
+  "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/SwiftyRSA/SwiftyRSA/SwiftyRSA+ObjC.swift": [1529679514, 0]
+  "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/SwiftyRSA/SwiftyRSA/SwiftyRSA.swift": [1529679514, 0]
+  "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/SwiftyRSA/SwiftyRSA/SwiftyRSAError.swift": [1529679514, 0]

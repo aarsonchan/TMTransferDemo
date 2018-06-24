@@ -1,0 +1,621 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "_objc_PublicKey"
+- "_objc_PrivateKey"
+- "_objc_VerificationResult"
+- "_objc_ClearMessage"
+- "_objc_EncryptedMessage"
+- "_objc_Signature"
+provides-nominal:
+- "9SwiftyRSA15_objc_PublicKeyC"
+- "9SwiftyRSA16_objc_PrivateKeyC"
+- "9SwiftyRSA24_objc_VerificationResultC"
+- "9SwiftyRSA18_objc_ClearMessageC"
+- "9SwiftyRSA22_objc_EncryptedMessageC"
+- "9SwiftyRSA15_objc_SignatureC"
+- "9SwiftyRSA15_objc_SignatureC10DigestTypeO"
+provides-member:
+- ["9SwiftyRSA15_objc_PublicKeyC", ""]
+- ["9SwiftyRSA16_objc_PrivateKeyC", ""]
+- ["9SwiftyRSA24_objc_VerificationResultC", ""]
+- ["9SwiftyRSA18_objc_ClearMessageC", ""]
+- ["9SwiftyRSA22_objc_EncryptedMessageC", ""]
+- ["9SwiftyRSA15_objc_SignatureC", ""]
+- ["9SwiftyRSA15_objc_SignatureC10DigestTypeO", ""]
+provides-dynamic-lookup:
+- "base64String"
+- "data"
+- "decrypted"
+- "encrypted"
+- "isSuccessful"
+- "originalData"
+- "pemString"
+- "publicKeys"
+- "reference"
+- "signed"
+- "string"
+- "verify"
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "Bundle"
+- "ClearMessage"
+- "Data"
+- "EncryptedMessage"
+- "Int"
+- "Key"
+- "Message"
+- "NSObject"
+- "ObjcBridgeable"
+- "Padding"
+- "PrivateKey"
+- "PublicKey"
+- "SecKey"
+- "Signature"
+- "String"
+- !private "StringLiteralType"
+- "UInt"
+- "_objc_ClearMessage"
+- "_objc_EncryptedMessage"
+- "_objc_PrivateKey"
+- "_objc_PublicKey"
+- "_objc_Signature"
+- "_objc_VerificationResult"
+- !private "~="
+depends-member:
+- !private ["Sa", "map"]
+- !private ["s23BidirectionalCollectionP", "Encoding"]
+- !private ["s23BidirectionalCollectionP", "map"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "ClearMessage"]
+- ["s7CVarArgP", "DigestType"]
+- !private ["s7CVarArgP", "Encoding"]
+- !private ["s7CVarArgP", "EncryptedMessage"]
+- !private ["s7CVarArgP", "PrivateKey"]
+- !private ["s7CVarArgP", "PublicKey"]
+- !private ["s7CVarArgP", "Signature"]
+- !private ["s7CVarArgP", "String"]
+- ["s7CVarArgP", "SwiftType"]
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "_Default_SwiftType"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_objc_ClearMessage"]
+- !private ["s7CVarArgP", "_objc_EncryptedMessage"]
+- !private ["s7CVarArgP", "_objc_PublicKey"]
+- !private ["s7CVarArgP", "_objc_Signature"]
+- !private ["s7CVarArgP", "_objc_VerificationResult"]
+- ["s7CVarArgP", "base64String"]
+- ["s7CVarArgP", "data"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isSuccessful"]
+- !private ["s7CVarArgP", "map"]
+- ["s7CVarArgP", "originalData"]
+- ["s7CVarArgP", "pemString"]
+- ["s7CVarArgP", "reference"]
+- ["s7CVarArgP", "swiftValue"]
+- !private ["9SwiftyRSA12ClearMessageC", "base64String"]
+- !private ["9SwiftyRSA12ClearMessageC", "data"]
+- !private ["9SwiftyRSA12ClearMessageC", "deinit"]
+- !private ["9SwiftyRSA12ClearMessageC", "encrypted"]
+- !private ["9SwiftyRSA12ClearMessageC", "init"]
+- !private ["9SwiftyRSA12ClearMessageC", "signed"]
+- !private ["9SwiftyRSA12ClearMessageC", "string"]
+- !private ["9SwiftyRSA12ClearMessageC", "verify"]
+- !private ["s10CollectionP", "Encoding"]
+- !private ["s10CollectionP", "map"]
+- !private ["s10ComparableP", "Encoding"]
+- !private ["s28CustomDebugStringConvertibleP", "ClearMessage"]
+- ["s28CustomDebugStringConvertibleP", "DigestType"]
+- !private ["s28CustomDebugStringConvertibleP", "Encoding"]
+- !private ["s28CustomDebugStringConvertibleP", "EncryptedMessage"]
+- !private ["s28CustomDebugStringConvertibleP", "PrivateKey"]
+- !private ["s28CustomDebugStringConvertibleP", "PublicKey"]
+- !private ["s28CustomDebugStringConvertibleP", "Signature"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", "SwiftType"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_SwiftType"]
+- !private ["s28CustomDebugStringConvertibleP", "_objc_ClearMessage"]
+- !private ["s28CustomDebugStringConvertibleP", "_objc_EncryptedMessage"]
+- !private ["s28CustomDebugStringConvertibleP", "_objc_PublicKey"]
+- !private ["s28CustomDebugStringConvertibleP", "_objc_Signature"]
+- !private ["s28CustomDebugStringConvertibleP", "_objc_VerificationResult"]
+- ["s28CustomDebugStringConvertibleP", "base64String"]
+- ["s28CustomDebugStringConvertibleP", "data"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isSuccessful"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- ["s28CustomDebugStringConvertibleP", "originalData"]
+- ["s28CustomDebugStringConvertibleP", "pemString"]
+- ["s28CustomDebugStringConvertibleP", "reference"]
+- ["s28CustomDebugStringConvertibleP", "swiftValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "Encoding"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "Encoding"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", "ClearMessage"]
+- ["s23CustomStringConvertibleP", "DigestType"]
+- !private ["s23CustomStringConvertibleP", "Encoding"]
+- !private ["s23CustomStringConvertibleP", "EncryptedMessage"]
+- !private ["s23CustomStringConvertibleP", "PrivateKey"]
+- !private ["s23CustomStringConvertibleP", "PublicKey"]
+- !private ["s23CustomStringConvertibleP", "Signature"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", "SwiftType"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_SwiftType"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "_objc_ClearMessage"]
+- !private ["s23CustomStringConvertibleP", "_objc_EncryptedMessage"]
+- !private ["s23CustomStringConvertibleP", "_objc_PublicKey"]
+- !private ["s23CustomStringConvertibleP", "_objc_Signature"]
+- !private ["s23CustomStringConvertibleP", "_objc_VerificationResult"]
+- ["s23CustomStringConvertibleP", "base64String"]
+- ["s23CustomStringConvertibleP", "data"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isSuccessful"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- ["s23CustomStringConvertibleP", "originalData"]
+- ["s23CustomStringConvertibleP", "pemString"]
+- ["s23CustomStringConvertibleP", "reference"]
+- ["s23CustomStringConvertibleP", "swiftValue"]
+- !private ["s9DecodableP", "Encoding"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "map"]
+- ["9SwiftyRSA15_objc_SignatureC10DigestTypeO", "RawValue"]
+- ["9SwiftyRSA15_objc_SignatureC10DigestTypeO", "Signature"]
+- ["9SwiftyRSA15_objc_SignatureC10DigestTypeO", "_Default_RawValue"]
+- ["9SwiftyRSA15_objc_SignatureC10DigestTypeO", "deinit"]
+- ["9SwiftyRSA15_objc_SignatureC10DigestTypeO", "hashValue"]
+- ["9SwiftyRSA15_objc_SignatureC10DigestTypeO", "init"]
+- ["9SwiftyRSA15_objc_SignatureC10DigestTypeO", "rawValue"]
+- ["9SwiftyRSA15_objc_SignatureC10DigestTypeO", "sha1"]
+- ["9SwiftyRSA15_objc_SignatureC10DigestTypeO", "sha224"]
+- ["9SwiftyRSA15_objc_SignatureC10DigestTypeO", "sha256"]
+- ["9SwiftyRSA15_objc_SignatureC10DigestTypeO", "sha384"]
+- ["9SwiftyRSA15_objc_SignatureC10DigestTypeO", "sha512"]
+- !private ["9SwiftyRSA15_objc_SignatureC10DigestTypeO", "swiftValue"]
+- !private ["9SwiftyRSA9SignatureC10DigestTypeO", "sha1"]
+- !private ["9SwiftyRSA9SignatureC10DigestTypeO", "sha224"]
+- !private ["9SwiftyRSA9SignatureC10DigestTypeO", "sha256"]
+- !private ["9SwiftyRSA9SignatureC10DigestTypeO", "sha384"]
+- !private ["9SwiftyRSA9SignatureC10DigestTypeO", "sha512"]
+- !private ["s9EncodableP", "Encoding"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "map"]
+- !private ["SS10FoundationE8EncodingV", "init"]
+- !private ["9SwiftyRSA16EncryptedMessageC", "base64String"]
+- !private ["9SwiftyRSA16EncryptedMessageC", "data"]
+- !private ["9SwiftyRSA16EncryptedMessageC", "decrypted"]
+- !private ["9SwiftyRSA16EncryptedMessageC", "deinit"]
+- !private ["9SwiftyRSA16EncryptedMessageC", "init"]
+- !private ["s9EquatableP", "ClearMessage"]
+- ["s9EquatableP", "DigestType"]
+- !private ["s9EquatableP", "Encoding"]
+- !private ["s9EquatableP", "EncryptedMessage"]
+- !private ["s9EquatableP", "PrivateKey"]
+- !private ["s9EquatableP", "PublicKey"]
+- ["s9EquatableP", "RawValue"]
+- !private ["s9EquatableP", "Signature"]
+- !private ["s9EquatableP", "String"]
+- ["s9EquatableP", "SwiftType"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "_Default_RawValue"]
+- ["s9EquatableP", "_Default_SwiftType"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "_objc_ClearMessage"]
+- !private ["s9EquatableP", "_objc_EncryptedMessage"]
+- !private ["s9EquatableP", "_objc_PublicKey"]
+- !private ["s9EquatableP", "_objc_Signature"]
+- !private ["s9EquatableP", "_objc_VerificationResult"]
+- ["s9EquatableP", "base64String"]
+- ["s9EquatableP", "data"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isSuccessful"]
+- !private ["s9EquatableP", "map"]
+- ["s9EquatableP", "originalData"]
+- ["s9EquatableP", "pemString"]
+- ["s9EquatableP", "rawValue"]
+- ["s9EquatableP", "reference"]
+- ["s9EquatableP", "sha1"]
+- ["s9EquatableP", "sha224"]
+- ["s9EquatableP", "sha256"]
+- ["s9EquatableP", "sha384"]
+- ["s9EquatableP", "sha512"]
+- ["s9EquatableP", "swiftValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Encoding"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "Encoding"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Encoding"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "ClearMessage"]
+- ["s8HashableP", "DigestType"]
+- !private ["s8HashableP", "Encoding"]
+- !private ["s8HashableP", "EncryptedMessage"]
+- !private ["s8HashableP", "PrivateKey"]
+- !private ["s8HashableP", "PublicKey"]
+- ["s8HashableP", "RawValue"]
+- !private ["s8HashableP", "Signature"]
+- !private ["s8HashableP", "String"]
+- ["s8HashableP", "SwiftType"]
+- ["s8HashableP", ""]
+- ["s8HashableP", "_Default_RawValue"]
+- ["s8HashableP", "_Default_SwiftType"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "_objc_ClearMessage"]
+- !private ["s8HashableP", "_objc_EncryptedMessage"]
+- !private ["s8HashableP", "_objc_PublicKey"]
+- !private ["s8HashableP", "_objc_Signature"]
+- !private ["s8HashableP", "_objc_VerificationResult"]
+- ["s8HashableP", "base64String"]
+- ["s8HashableP", "data"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "isSuccessful"]
+- ["s8HashableP", "originalData"]
+- ["s8HashableP", "pemString"]
+- ["s8HashableP", "rawValue"]
+- ["s8HashableP", "reference"]
+- ["s8HashableP", "sha1"]
+- ["s8HashableP", "sha224"]
+- ["s8HashableP", "sha256"]
+- ["s8HashableP", "sha384"]
+- ["s8HashableP", "sha512"]
+- ["s8HashableP", "swiftValue"]
+- !private ["9SwiftyRSA3KeyP", "PrivateKey"]
+- !private ["9SwiftyRSA3KeyP", "PublicKey"]
+- ["9SwiftyRSA3KeyP", "SwiftType"]
+- ["9SwiftyRSA3KeyP", ""]
+- ["9SwiftyRSA3KeyP", "_Default_SwiftType"]
+- !private ["9SwiftyRSA3KeyP", "_objc_PublicKey"]
+- ["9SwiftyRSA3KeyP", "base64String"]
+- ["9SwiftyRSA3KeyP", "data"]
+- ["9SwiftyRSA3KeyP", "init"]
+- ["9SwiftyRSA3KeyP", "originalData"]
+- ["9SwiftyRSA3KeyP", "pemString"]
+- !private ["9SwiftyRSA3KeyP", "publicKeys"]
+- ["9SwiftyRSA3KeyP", "reference"]
+- ["9SwiftyRSA3KeyP", "swiftValue"]
+- !private ["s25LosslessStringConvertibleP", "Encoding"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["9SwiftyRSA7MessageP", "ClearMessage"]
+- !private ["9SwiftyRSA7MessageP", "EncryptedMessage"]
+- !private ["9SwiftyRSA7MessageP", "String"]
+- ["9SwiftyRSA7MessageP", "SwiftType"]
+- ["9SwiftyRSA7MessageP", ""]
+- ["9SwiftyRSA7MessageP", "_Default_SwiftType"]
+- !private ["9SwiftyRSA7MessageP", "_objc_ClearMessage"]
+- !private ["9SwiftyRSA7MessageP", "_objc_EncryptedMessage"]
+- !private ["9SwiftyRSA7MessageP", "_objc_Signature"]
+- !private ["9SwiftyRSA7MessageP", "_objc_VerificationResult"]
+- ["9SwiftyRSA7MessageP", "base64String"]
+- ["9SwiftyRSA7MessageP", "data"]
+- !private ["9SwiftyRSA7MessageP", "decrypted"]
+- !private ["9SwiftyRSA7MessageP", "encrypted"]
+- ["9SwiftyRSA7MessageP", "init"]
+- !private ["9SwiftyRSA7MessageP", "signed"]
+- !private ["9SwiftyRSA7MessageP", "string"]
+- ["9SwiftyRSA7MessageP", "swiftValue"]
+- !private ["9SwiftyRSA7MessageP", "verify"]
+- !private ["s10MirrorPathP", "Encoding"]
+- !private ["s17MutableCollectionP", "map"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Bundle"]
+- ["So8NSObjectC", "ClearMessage"]
+- ["So8NSObjectC", "Data"]
+- ["So8NSObjectC", "DigestType"]
+- ["So8NSObjectC", "EncryptedMessage"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "Padding"]
+- ["So8NSObjectC", "PrivateKey"]
+- ["So8NSObjectC", "PublicKey"]
+- ["So8NSObjectC", "SecKey"]
+- ["So8NSObjectC", "Signature"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "SwiftType"]
+- ["So8NSObjectC", "UInt"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "_Default_SwiftType"]
+- ["So8NSObjectC", "_objc_ClearMessage"]
+- ["So8NSObjectC", "_objc_EncryptedMessage"]
+- ["So8NSObjectC", "_objc_PrivateKey"]
+- ["So8NSObjectC", "_objc_PublicKey"]
+- ["So8NSObjectC", "_objc_Signature"]
+- ["So8NSObjectC", "_objc_VerificationResult"]
+- ["So8NSObjectC", "base64String"]
+- ["So8NSObjectC", "data"]
+- ["So8NSObjectC", "decrypted"]
+- ["So8NSObjectC", "encrypted"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isSuccessful"]
+- ["So8NSObjectC", "originalData"]
+- ["So8NSObjectC", "pemString"]
+- ["So8NSObjectC", "publicKeys"]
+- ["So8NSObjectC", "reference"]
+- ["So8NSObjectC", "signed"]
+- ["So8NSObjectC", "string"]
+- ["So8NSObjectC", "swiftValue"]
+- ["So8NSObjectC", "verify"]
+- !private ["So16NSObjectProtocolP", "ClearMessage"]
+- ["So16NSObjectProtocolP", "DigestType"]
+- !private ["So16NSObjectProtocolP", "EncryptedMessage"]
+- !private ["So16NSObjectProtocolP", "PrivateKey"]
+- !private ["So16NSObjectProtocolP", "PublicKey"]
+- !private ["So16NSObjectProtocolP", "Signature"]
+- !private ["So16NSObjectProtocolP", "String"]
+- ["So16NSObjectProtocolP", "SwiftType"]
+- ["So16NSObjectProtocolP", ""]
+- ["So16NSObjectProtocolP", "_Default_SwiftType"]
+- !private ["So16NSObjectProtocolP", "_objc_ClearMessage"]
+- !private ["So16NSObjectProtocolP", "_objc_EncryptedMessage"]
+- !private ["So16NSObjectProtocolP", "_objc_PublicKey"]
+- !private ["So16NSObjectProtocolP", "_objc_Signature"]
+- !private ["So16NSObjectProtocolP", "_objc_VerificationResult"]
+- ["So16NSObjectProtocolP", "base64String"]
+- ["So16NSObjectProtocolP", "data"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isSuccessful"]
+- ["So16NSObjectProtocolP", "originalData"]
+- ["So16NSObjectProtocolP", "pemString"]
+- ["So16NSObjectProtocolP", "reference"]
+- ["So16NSObjectProtocolP", "swiftValue"]
+- !private ["9SwiftyRSA10PrivateKeyC", "base64String"]
+- !private ["9SwiftyRSA10PrivateKeyC", "data"]
+- !private ["9SwiftyRSA10PrivateKeyC", "deinit"]
+- !private ["9SwiftyRSA10PrivateKeyC", "init"]
+- !private ["9SwiftyRSA10PrivateKeyC", "originalData"]
+- !private ["9SwiftyRSA10PrivateKeyC", "pemString"]
+- !private ["9SwiftyRSA10PrivateKeyC", "reference"]
+- !private ["9SwiftyRSA9PublicKeyC", "base64String"]
+- !private ["9SwiftyRSA9PublicKeyC", "data"]
+- !private ["9SwiftyRSA9PublicKeyC", "deinit"]
+- !private ["9SwiftyRSA9PublicKeyC", "init"]
+- !private ["9SwiftyRSA9PublicKeyC", "originalData"]
+- !private ["9SwiftyRSA9PublicKeyC", "pemString"]
+- !private ["9SwiftyRSA9PublicKeyC", "publicKeys"]
+- !private ["9SwiftyRSA9PublicKeyC", "reference"]
+- !private ["s22RandomAccessCollectionP", "map"]
+- !private ["s26RangeReplaceableCollectionP", "Encoding"]
+- !private ["s26RangeReplaceableCollectionP", "map"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", ""]
+- ["s16RawRepresentableP", "_Default_RawValue"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "rawValue"]
+- ["s16RawRepresentableP", "sha1"]
+- ["s16RawRepresentableP", "sha224"]
+- ["s16RawRepresentableP", "sha256"]
+- ["s16RawRepresentableP", "sha384"]
+- ["s16RawRepresentableP", "sha512"]
+- !private ["s16RawRepresentableP", "swiftValue"]
+- !private ["s8SequenceP", "Encoding"]
+- !private ["s8SequenceP", "map"]
+- ["9SwiftyRSA9SignatureC", "DigestType"]
+- !private ["9SwiftyRSA9SignatureC", "base64String"]
+- !private ["9SwiftyRSA9SignatureC", "data"]
+- !private ["9SwiftyRSA9SignatureC", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "Encoding"]
+- !private ["s14StringProtocolP", "Encoding"]
+- !private ["s16TextOutputStreamP", "Encoding"]
+- !private ["s20TextOutputStreamableP", "Encoding"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Encoding"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "Encoding"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "Encoding"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "Encoding"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "Encoding"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ClearMessage"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DigestType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "EncryptedMessage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PrivateKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PublicKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Signature"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "SwiftType"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "_Default_SwiftType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_objc_ClearMessage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_objc_EncryptedMessage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_objc_PublicKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_objc_Signature"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_objc_VerificationResult"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "base64String"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isSuccessful"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "originalData"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "pemString"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "reference"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "swiftValue"]
+- !private ["s21_ObjectiveCBridgeableP", "Encoding"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s16_SwiftStringViewP", "Encoding"]
+- ["9SwiftyRSA18_objc_ClearMessageC", "ClearMessage"]
+- ["9SwiftyRSA18_objc_ClearMessageC", "Data"]
+- ["9SwiftyRSA18_objc_ClearMessageC", "Padding"]
+- ["9SwiftyRSA18_objc_ClearMessageC", "String"]
+- ["9SwiftyRSA18_objc_ClearMessageC", "SwiftType"]
+- ["9SwiftyRSA18_objc_ClearMessageC", "UInt"]
+- ["9SwiftyRSA18_objc_ClearMessageC", "_Default_SwiftType"]
+- ["9SwiftyRSA18_objc_ClearMessageC", "_objc_EncryptedMessage"]
+- ["9SwiftyRSA18_objc_ClearMessageC", "_objc_PrivateKey"]
+- ["9SwiftyRSA18_objc_ClearMessageC", "_objc_PublicKey"]
+- ["9SwiftyRSA18_objc_ClearMessageC", "_objc_Signature"]
+- ["9SwiftyRSA18_objc_ClearMessageC", "_objc_VerificationResult"]
+- ["9SwiftyRSA18_objc_ClearMessageC", "base64String"]
+- ["9SwiftyRSA18_objc_ClearMessageC", "data"]
+- ["9SwiftyRSA18_objc_ClearMessageC", "deinit"]
+- ["9SwiftyRSA18_objc_ClearMessageC", "encrypted"]
+- ["9SwiftyRSA18_objc_ClearMessageC", "init"]
+- ["9SwiftyRSA18_objc_ClearMessageC", "signed"]
+- ["9SwiftyRSA18_objc_ClearMessageC", "string"]
+- ["9SwiftyRSA18_objc_ClearMessageC", "swiftValue"]
+- ["9SwiftyRSA18_objc_ClearMessageC", "verify"]
+- ["9SwiftyRSA22_objc_EncryptedMessageC", "Data"]
+- ["9SwiftyRSA22_objc_EncryptedMessageC", "EncryptedMessage"]
+- ["9SwiftyRSA22_objc_EncryptedMessageC", "Padding"]
+- ["9SwiftyRSA22_objc_EncryptedMessageC", "String"]
+- ["9SwiftyRSA22_objc_EncryptedMessageC", "SwiftType"]
+- ["9SwiftyRSA22_objc_EncryptedMessageC", "_Default_SwiftType"]
+- ["9SwiftyRSA22_objc_EncryptedMessageC", "_objc_ClearMessage"]
+- ["9SwiftyRSA22_objc_EncryptedMessageC", "_objc_PrivateKey"]
+- ["9SwiftyRSA22_objc_EncryptedMessageC", "base64String"]
+- ["9SwiftyRSA22_objc_EncryptedMessageC", "data"]
+- ["9SwiftyRSA22_objc_EncryptedMessageC", "decrypted"]
+- ["9SwiftyRSA22_objc_EncryptedMessageC", "deinit"]
+- ["9SwiftyRSA22_objc_EncryptedMessageC", "init"]
+- ["9SwiftyRSA22_objc_EncryptedMessageC", "swiftValue"]
+- ["9SwiftyRSA16_objc_PrivateKeyC", "Bundle"]
+- ["9SwiftyRSA16_objc_PrivateKeyC", "Data"]
+- ["9SwiftyRSA16_objc_PrivateKeyC", "PrivateKey"]
+- ["9SwiftyRSA16_objc_PrivateKeyC", "SecKey"]
+- ["9SwiftyRSA16_objc_PrivateKeyC", "String"]
+- ["9SwiftyRSA16_objc_PrivateKeyC", "SwiftType"]
+- ["9SwiftyRSA16_objc_PrivateKeyC", "_Default_SwiftType"]
+- ["9SwiftyRSA16_objc_PrivateKeyC", "base64String"]
+- ["9SwiftyRSA16_objc_PrivateKeyC", "data"]
+- ["9SwiftyRSA16_objc_PrivateKeyC", "deinit"]
+- ["9SwiftyRSA16_objc_PrivateKeyC", "init"]
+- ["9SwiftyRSA16_objc_PrivateKeyC", "originalData"]
+- ["9SwiftyRSA16_objc_PrivateKeyC", "pemString"]
+- ["9SwiftyRSA16_objc_PrivateKeyC", "reference"]
+- ["9SwiftyRSA16_objc_PrivateKeyC", "swiftValue"]
+- ["9SwiftyRSA15_objc_PublicKeyC", "Bundle"]
+- ["9SwiftyRSA15_objc_PublicKeyC", "Data"]
+- ["9SwiftyRSA15_objc_PublicKeyC", "PublicKey"]
+- ["9SwiftyRSA15_objc_PublicKeyC", "SecKey"]
+- ["9SwiftyRSA15_objc_PublicKeyC", "String"]
+- ["9SwiftyRSA15_objc_PublicKeyC", "SwiftType"]
+- ["9SwiftyRSA15_objc_PublicKeyC", "_Default_SwiftType"]
+- ["9SwiftyRSA15_objc_PublicKeyC", "_objc_PublicKey"]
+- ["9SwiftyRSA15_objc_PublicKeyC", "base64String"]
+- ["9SwiftyRSA15_objc_PublicKeyC", "data"]
+- ["9SwiftyRSA15_objc_PublicKeyC", "deinit"]
+- ["9SwiftyRSA15_objc_PublicKeyC", "init"]
+- ["9SwiftyRSA15_objc_PublicKeyC", "originalData"]
+- ["9SwiftyRSA15_objc_PublicKeyC", "pemString"]
+- ["9SwiftyRSA15_objc_PublicKeyC", "publicKeys"]
+- ["9SwiftyRSA15_objc_PublicKeyC", "reference"]
+- ["9SwiftyRSA15_objc_PublicKeyC", "swiftValue"]
+- ["9SwiftyRSA15_objc_SignatureC", "Data"]
+- ["9SwiftyRSA15_objc_SignatureC", "DigestType"]
+- ["9SwiftyRSA15_objc_SignatureC", "Int"]
+- ["9SwiftyRSA15_objc_SignatureC", "Signature"]
+- ["9SwiftyRSA15_objc_SignatureC", "String"]
+- ["9SwiftyRSA15_objc_SignatureC", "SwiftType"]
+- ["9SwiftyRSA15_objc_SignatureC", "_Default_SwiftType"]
+- ["9SwiftyRSA15_objc_SignatureC", "base64String"]
+- ["9SwiftyRSA15_objc_SignatureC", "data"]
+- ["9SwiftyRSA15_objc_SignatureC", "deinit"]
+- ["9SwiftyRSA15_objc_SignatureC", "init"]
+- ["9SwiftyRSA15_objc_SignatureC", "swiftValue"]
+- ["9SwiftyRSA24_objc_VerificationResultC", "Bool"]
+- ["9SwiftyRSA24_objc_VerificationResultC", "deinit"]
+- ["9SwiftyRSA24_objc_VerificationResultC", "init"]
+- ["9SwiftyRSA24_objc_VerificationResultC", "isSuccessful"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "9SwiftyRSA12ClearMessageC"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- "9SwiftyRSA15_objc_SignatureC10DigestTypeO"
+- !private "9SwiftyRSA9SignatureC10DigestTypeO"
+- !private "s9EncodableP"
+- !private "SS10FoundationE8EncodingV"
+- !private "9SwiftyRSA16EncryptedMessageC"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "9SwiftyRSA3KeyP"
+- !private "s25LosslessStringConvertibleP"
+- "9SwiftyRSA7MessageP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "9SwiftyRSA10PrivateKeyC"
+- !private "9SwiftyRSA9PublicKeyC"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- !private "s8SequenceP"
+- "9SwiftyRSA9SignatureC"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+- "9SwiftyRSA18_objc_ClearMessageC"
+- "9SwiftyRSA22_objc_EncryptedMessageC"
+- "9SwiftyRSA16_objc_PrivateKeyC"
+- "9SwiftyRSA15_objc_PublicKeyC"
+- "9SwiftyRSA15_objc_SignatureC"
+- "9SwiftyRSA24_objc_VerificationResultC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/SwiftyRSA/SwiftyRSA/NSData+SHA.h"
+- "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/SwiftyRSA/SwiftyRSA/SwiftyRSA.h"
+- "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/Target Support Files/SwiftyRSA/SwiftyRSA-umbrella.h"
+- "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/DerivedData/TMTransferDemo/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SwiftyRSA.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "a3ba5e54338f907e68c7bbb908add83b"

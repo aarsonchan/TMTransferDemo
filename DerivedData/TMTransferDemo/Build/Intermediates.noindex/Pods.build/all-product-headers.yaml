@@ -1,0 +1,211 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/DerivedData/TMTransferDemo/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Alamofire-Swift.h",
+          'external-contents': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/DerivedData/TMTransferDemo/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Alamofire-umbrella.h",
+          'external-contents': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/DerivedData/TMTransferDemo/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/DerivedData/TMTransferDemo/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/DerivedData/TMTransferDemo/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "CocoaLumberjack-Swift.h",
+          'external-contents': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/DerivedData/TMTransferDemo/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/CocoaLumberjack-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "CocoaLumberjack-umbrella.h",
+          'external-contents': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/Target Support Files/CocoaLumberjack/CocoaLumberjack-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "CocoaLumberjack.h",
+          'external-contents': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/CocoaLumberjack/Classes/CocoaLumberjack.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDASLLogCapture.h",
+          'external-contents': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/CocoaLumberjack/Classes/DDASLLogCapture.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDASLLogger.h",
+          'external-contents': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/CocoaLumberjack/Classes/DDASLLogger.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDAbstractDatabaseLogger.h",
+          'external-contents': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/CocoaLumberjack/Classes/DDAbstractDatabaseLogger.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDAssertMacros.h",
+          'external-contents': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/CocoaLumberjack/Classes/DDAssertMacros.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDFileLogger.h",
+          'external-contents': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/CocoaLumberjack/Classes/DDFileLogger.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDLegacyMacros.h",
+          'external-contents': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/CocoaLumberjack/Classes/DDLegacyMacros.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDLog+LOGV.h",
+          'external-contents': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/CocoaLumberjack/Classes/DDLog+LOGV.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDLog.h",
+          'external-contents': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/CocoaLumberjack/Classes/DDLog.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDLogMacros.h",
+          'external-contents': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/CocoaLumberjack/Classes/DDLogMacros.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDOSLogger.h",
+          'external-contents': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/CocoaLumberjack/Classes/DDOSLogger.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDTTYLogger.h",
+          'external-contents': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/CocoaLumberjack/Classes/DDTTYLogger.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/DerivedData/TMTransferDemo/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/DerivedData/TMTransferDemo/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CocoaLumberjack.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/DerivedData/TMTransferDemo/Build/Products/Debug-iphonesimulator/CryptoSwift/CryptoSwift.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "CryptoSwift-Swift.h",
+          'external-contents': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/DerivedData/TMTransferDemo/Build/Products/Debug-iphonesimulator/CryptoSwift/CryptoSwift.framework/Headers/CryptoSwift-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "CryptoSwift-umbrella.h",
+          'external-contents': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/Target Support Files/CryptoSwift/CryptoSwift-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/DerivedData/TMTransferDemo/Build/Products/Debug-iphonesimulator/CryptoSwift/CryptoSwift.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/DerivedData/TMTransferDemo/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CryptoSwift.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/DerivedData/TMTransferDemo/Build/Products/Debug-iphonesimulator/Pods_TMTransferDemo.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-TMTransferDemo-umbrella.h",
+          'external-contents': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/Target Support Files/Pods-TMTransferDemo/Pods-TMTransferDemo-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_TMTransferDemo-Swift.h",
+          'external-contents': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/DerivedData/TMTransferDemo/Build/Products/Debug-iphonesimulator/Pods_TMTransferDemo.framework/Headers/Pods_TMTransferDemo-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/DerivedData/TMTransferDemo/Build/Products/Debug-iphonesimulator/Pods_TMTransferDemo.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/DerivedData/TMTransferDemo/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-TMTransferDemo.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/DerivedData/TMTransferDemo/Build/Products/Debug-iphonesimulator/SwiftyRSA/SwiftyRSA.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "NSData+SHA.h",
+          'external-contents': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/SwiftyRSA/SwiftyRSA/NSData+SHA.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftyRSA-Swift.h",
+          'external-contents': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/DerivedData/TMTransferDemo/Build/Products/Debug-iphonesimulator/SwiftyRSA/SwiftyRSA.framework/Headers/SwiftyRSA-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftyRSA-umbrella.h",
+          'external-contents': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/Target Support Files/SwiftyRSA/SwiftyRSA-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftyRSA.h",
+          'external-contents': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/SwiftyRSA/SwiftyRSA/SwiftyRSA.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/DerivedData/TMTransferDemo/Build/Products/Debug-iphonesimulator/SwiftyRSA/SwiftyRSA.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/DerivedData/TMTransferDemo/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SwiftyRSA.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

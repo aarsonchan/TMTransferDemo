@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "23ad05779cc68da8e264e80f1d7cbb16"
+build_time: [1529857707, 670992000]
+inputs:
+  "/Users/aarsonchan/Documents/Xcode Project/TMTransferDemo/Pods/CocoaLumberjack/Classes/CocoaLumberjack.swift": [1529679250, 0]
