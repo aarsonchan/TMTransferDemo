@@ -1,6 +1,0 @@
-framework module Pods_TMTransferDemo {
-  umbrella header "Pods-TMTransferDemo-umbrella.h"
-
-  export *
-  module * { export * }
-}
