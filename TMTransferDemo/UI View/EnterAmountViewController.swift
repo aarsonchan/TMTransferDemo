@@ -90,7 +90,7 @@ class EnterAmountViewController: UIViewController, UITextFieldDelegate {
         self.lblRemarks.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier: 0.8).isActive = true
         self.lblRemarks.heightAnchor.constraint(equalToConstant: 30.0).isActive = true
         //Configurations
-        self.lblRemarks.font = UIFont.systemFont(ofSize: 12.0)
+        self.lblRemarks.font = UIFont.systemFont(ofSize: 14.0)
         self.lblRemarks.textColor = .red
         self.lblRemarks.text = NSLocalizedString("", comment: "")
     }
@@ -126,11 +126,10 @@ class EnterAmountViewController: UIViewController, UITextFieldDelegate {
             return
         }
         
-        let regEx = "^[0-9][0-9]*(\\.\\d{1,2})?$|^[\\.]([\\d][\\d]?)$"
-        let matchArray = self.getMatchAmountFormat(for: regEx, in: txtFieldAmount.text!)
+        let matchArray = self.getRegExMatchAmountFormat(in:txtFieldAmount.text!)
         DDLogVerbose("regex:\(matchArray)")
         if matchArray.count == 0 {
-            let alert = UIAlertController(title: NSLocalizedString("Error", comment: ""), message: NSLocalizedString("Amount Format invalid", comment: ""), preferredStyle: .alert)
+            let alert = UIAlertController(title: NSLocalizedString("Error", comment: ""), message: NSLocalizedString("Amount Format invalid. Please retry.", comment: ""), preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { (action:UIAlertAction) in
             }))
             self.present(alert, animated: true)
@@ -186,7 +185,7 @@ class EnterAmountViewController: UIViewController, UITextFieldDelegate {
     //MARK: - HUD indicator
     private func showLoadingView() {
         DispatchQueue.main.async {
-            HUD.flash(.labeledRotatingImage(image: UIImage(named: "progress"), title: "Loading", subtitle: "Please wait"))
+            HUD.flash(.labeledRotatingImage(image: UIImage(named: "progress"), title: NSLocalizedString("Loading", comment: ""), subtitle: NSLocalizedString("Please wait", comment: "")))
         }
     }
     
@@ -204,8 +203,27 @@ class EnterAmountViewController: UIViewController, UITextFieldDelegate {
             if(range.length + range.location > theText.lengthOfBytes(using: .utf8)) {
                 return false
             }
+            
+            
+            let matchArray = self.getRegExMatchAmountFormat(in:"\(theText)\(string)")
+            DDLogVerbose("regex:\(matchArray)")
+            if matchArray.count == 0 {
+                self.lblRemarks.text = NSLocalizedString("Invalid Amount Format. Please retry.", comment: "")
+                self.btnConfirm.isEnabled = false
+                self.btnConfirm.alpha = 0.3
+            } else {
+                self.lblRemarks.text = ""
+                self.btnConfirm.isEnabled = true
+                self.btnConfirm.alpha = 1.0
+            }
+            
             let newLength:Int =  theText.lengthOfBytes(using: .utf8) +  string.lengthOfBytes(using: .utf8) - range.length;
-            return (newLength <= 20) ? true : false
+            if newLength <= 20 {
+                return true
+            } else {
+                return false
+            }
+            //return (newLength <= 20) ? true : false
         } else {
             return true
         }
@@ -213,9 +231,10 @@ class EnterAmountViewController: UIViewController, UITextFieldDelegate {
     
     //MARK: - Others
     //Regular Expression Matching
-    private func getMatchAmountFormat(for regex: String, in text: String) -> [String] {
+    private func getRegExMatchAmountFormat(in text: String) -> [String] {
         do {
-            let regex = try NSRegularExpression(pattern: regex)
+            let regExStr = "^[0-9][0-9]*(\\.\\d{1,2})?$|^[\\.]([\\d][\\d]?)$"
+            let regex = try NSRegularExpression(pattern: regExStr)
             let results = regex.matches(in: text,
                                         range: NSRange(text.startIndex..., in: text))
             return results.map {
