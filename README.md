@@ -15,8 +15,9 @@ However, in order to complete demo of whole transfer progresss, a dummy API call
 
 ## Screen Captures
 <p align="center">
-  <img src="https://github.com/aarsonchan/TMTransferDemo/blob/master/InputPage.png" width="350"/>
-  <img src="https://github.com/aarsonchan/TMTransferDemo/blob/master/ResultPage.png" width="350"/>
+  <img src="https://github.com/aarsonchan/TMTransferDemo/blob/master/InputPage.png" width="280"/>
+  <img src="https://github.com/aarsonchan/TMTransferDemo/blob/master/InputInvalidPage.png" width="280"/>
+  <img src="https://github.com/aarsonchan/TMTransferDemo/blob/master/ResultPage.png" width="280"/>
 </p>
 
 ## Requirements
