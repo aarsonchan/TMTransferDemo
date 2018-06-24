@@ -4,6 +4,7 @@ PODS:
   - CocoaLumberjack/Swift (3.4.2):
     - CocoaLumberjack/Default
   - CryptoSwift (0.8.3)
+  - PKHUD (5.0.0)
   - SwiftyRSA (1.4.0):
     - SwiftyRSA/ObjC (= 1.4.0)
   - SwiftyRSA/ObjC (1.4.0)
@@ -12,6 +13,7 @@ DEPENDENCIES:
   - Alamofire
   - CocoaLumberjack/Swift (~> 3.0)
   - CryptoSwift (= 0.8.3)
+  - PKHUD
   - SwiftyRSA
 
 SPEC REPOS:
@@ -19,14 +21,16 @@ SPEC REPOS:
     - Alamofire
     - CocoaLumberjack
     - CryptoSwift
+    - PKHUD
     - SwiftyRSA
 
 SPEC CHECKSUMS:
   Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
   CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
   CryptoSwift: 033efc3523865d19cc6ab6612fa17a62613b5dfa
+  PKHUD: 3c001512c6e002091184197a8de7a20420786e3b
   SwiftyRSA: 601e4585fece2c6c50ae93a67c77cc2426e55cb2
 
-PODFILE CHECKSUM: ec7c1d174d39f385b2a8d1eae969877d502e5cce
+PODFILE CHECKSUM: 8df5103662d333f5834f5fb70008c2d6a002190f
 
 COCOAPODS: 1.5.3

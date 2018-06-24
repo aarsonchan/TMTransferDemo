@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import PKHUD
 
 class EnterAmountViewController: UIViewController, UITextFieldDelegate {
 
@@ -148,17 +149,21 @@ class EnterAmountViewController: UIViewController, UITextFieldDelegate {
     //Suppose all data must be encrpyted (With AES) when send to server as this is high risk transaction
     //In this demo, dummy static json will be reponsed from online hosting
     private func sendTransferRequest() {
+        self.showLoadingView()
         let messageManager:TMMessageManager = TMMessageManager.sharedInstance()
         messageManager.requestTransferMoney(amount:self.getAmountConvertToServer(amount: txtFieldAmount.text!), currency:"344", payerAccnNum:accnFrom, payeeAccnNum:accnTo, successBlock: { (responseDict: NSDictionary) in
             let jom = responseDict["jom"] as! NSDictionary
             let status = jom["status"]  as! String
             let refNum = jom["refNum"]  as! String
             let dataTime = jom["dateTime"]  as! String
+            
             DispatchQueue.main.async {
+                self.hideLoadingView()
                 self.goNextPage(status: status, refNum: refNum, dataTime: dataTime)
             }
             
         }) { (errorDict: NSDictionary) in
+            self.hideLoadingView()
             let alert = UIAlertController(title: NSLocalizedString("Error", comment: ""), message: NSLocalizedString("some error", comment: ""), preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: ""), style: .default, handler: { (action:UIAlertAction) in
             }))
@@ -175,6 +180,19 @@ class EnterAmountViewController: UIViewController, UITextFieldDelegate {
             //
         }) { (errorDict: NSDictionary) in
             //
+        }
+    }
+    
+    //MARK: - HUD indicator
+    private func showLoadingView() {
+        DispatchQueue.main.async {
+            HUD.flash(.labeledRotatingImage(image: UIImage(named: "progress"), title: "Loading", subtitle: "Please wait"))
+        }
+    }
+    
+    private func hideLoadingView() {
+        DispatchQueue.main.async {
+            HUD.hide()
         }
     }
     

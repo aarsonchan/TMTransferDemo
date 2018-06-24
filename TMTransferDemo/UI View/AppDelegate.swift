@@ -25,7 +25,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         #endif
         DDTTYLogger.sharedInstance.logFormatter = TMLoggerFormatter()
         
-        
         window = UIWindow(frame: UIScreen.main.bounds)
         //Assume account number of payer and payee are entered before, hence haredcoded
         let enterAmountViewController = EnterAmountViewController(accnFrom: "645-874857-883", accnTo: "445-100123-883")
