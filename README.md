@@ -37,3 +37,5 @@ This project using 'CocoaPods' for 3rd party library installation:
    - SwiftyRSA is used for RSA public/private key encryption
 4. CocoaLumberjack
    - CocoaLumberjack is a fast and simple logging framework for customized logger used in this app
+5. PKHUD
+   - PKHUD is a simple HUD activity indicator for handling progress of ongoing task (especially API Call)
