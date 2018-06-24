@@ -24,7 +24,11 @@ However, in order to complete demo of whole transfer progresss, a dummy API call
 - iOS 11.0+
 - Swift 4.0+
 
+## Installation and Build
+Please download whole project and open `TMTransferDemo.xcworkspace`
+
 ## 3rd Party Libraries Used
+This project using 'CocoaPods' for 3rd party library installation:
 1. Alamofire
    - Alamofire is a useful HTTP networking library written in Swift, which helps to handle Request / Response Methods, HTTP Response Validation, TLS Certificate and Public Key Pinning
 2. CryptoSwift
